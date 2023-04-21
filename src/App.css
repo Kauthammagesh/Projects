@@ -1,0 +1,187 @@
+#root,html,body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.app{
+  height: 100%;
+    background:  url(https://i.pinimg.com/originals/2a/1e/9d/2a1e9dcff7cc59e597f9cdffda5e2b01.png); 
+  /*https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_52683-60691.jpg*/
+  /*https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902621.jpg?w=360*/
+  /*https://img.freepik.com/premium-photo/beautiful-soft-orange-clouds-sunlight-blue-sky-perfect-background-take-morningtwilight-sky-gradient-backgroundpurple-sky_532332-1105.jpg*/
+  /*https://img.freepik.com/premium-photo/colorful-dramatic-sky-with-cloud-sunset_33996-675.jpg*/
+  /*https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149005484.jpg?w=2000*/
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.button1{
+  
+    margin-bottom: 10px;
+   font-size: 50px;
+   position: relative;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  text-decoration: currentColor;
+  border-radius: 550px;                                    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 200px;
+  width: 310px;
+  opacity: 1;
+  background-color: white;
+   
+}
+.card{
+  background-color: rgb(255, 197, 158);
+  width: 40%;
+  height: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 10cm;
+  padding: 2%;
+  shape-margin: 5%;
+  animation-duration: 20s;
+  animation-name: bg
+  
+  
+  
+}
+.heading{
+  display: flex;
+  align-items: center;
+  height: 580px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+  position: relative;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  text-decoration: currentColor;
+  border-radius: 550px;                                    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  height: 300px;
+  width: 710px;
+  opacity: 1;
+  background-color: white;
+  border: 1px solid rgba(167, 22, 22, 0.6);
+  
+  
+}
+
+.header{
+  position: relative;
+  bottom: 400px;
+  left: 400px;
+  background-color: rgb(239, 243, 6);
+  
+}
+#rq{
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  transform: translate(0px,-100px);
+  width: 4000px;
+  
+  
+  background-color: rgb(127, 225, 255);
+  
+ 
+}
+#hello{
+  font-size: 36PX;
+  
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(0deg)translate3d(0,0,0);
+  }
+  25%{
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50%{
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75%{
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100%{
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes storm{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+}
+@keyframes bg{
+  0%{
+    background: pink;
+  }
+  10%{
+    background: orange;
+  }
+  20%{
+    background: blueviolet;
+  }
+  30%{
+    background: yellow;
+  }
+  40%{
+    background:  red;
+  }
+  50%{
+    background: plum;
+  }
+  60%{
+    background: white;
+  }
+  70%{
+    background: lightgreen;
+  }
+  80%{
+    background:  skyblue;
+  }
+  90%{
+    background: lightgoldenrodyellow;
+  }
+  100%{
+    background: green;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  .card{
+    width: 80%;
+    height: 30%;
+  }
+}
+.background-red {
+  background-color: red;
+}
+
+.background-blue {
+  background-color: blue;
+}
